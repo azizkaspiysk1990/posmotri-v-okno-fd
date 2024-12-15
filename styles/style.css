@@ -109,7 +109,7 @@ ol {
   display: flex;
   gap: 40px;
   justify-content: space-between;
-  /* align-items: flex-end; */
+  align-items: flex-end;
 }
 
 .content__video-card {
