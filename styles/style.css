@@ -178,6 +178,7 @@ ol {
 .search-form__checkbox-list {
   display: flex;
   gap: 15px;
+  padding: 5px 0;
 }
 
 .search-form__label {
@@ -221,12 +222,6 @@ ol {
   min-height: 27px;
   padding: 2.5px 0;
   color: #fff;
-}
-
-.search-form__checkbox-list {
-  display: flex;
-  gap: 15px;
-  padding: 5px 0;
 }
 
 .search-form__pseudo-checkbox {
