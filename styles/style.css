@@ -195,7 +195,7 @@ ol {
   color: #fff;
   font-weight: 400;
   font-size: 18px;
-  line-height: 21.6px;
+  line-height: 20.6px;
 }
 
 .search-form__label:has(:focus-visible) {
