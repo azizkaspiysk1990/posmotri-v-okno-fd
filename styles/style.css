@@ -141,9 +141,8 @@ ol {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  /* text-decoration-skip-ink: none; */
   max-width: 192px;
-  text-overflow: ellipsis;
+  
 }
 
 .content__video-card-description {
