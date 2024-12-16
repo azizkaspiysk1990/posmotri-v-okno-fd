@@ -55,7 +55,6 @@ ol {
 .content {
   display: grid;
   grid-template-columns: 711px 399px;
-  grid-template-rows: 534px;
   margin: auto;
   gap: 30px;
 }
@@ -76,11 +75,14 @@ ol {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .content__list-container {
   position: relative;
-  overflow-y: scroll;
+  margin-top: 26px;
+  height: 298px;
+  overflow-y: auto;
 }
 
 .content__list {
@@ -90,7 +92,7 @@ ol {
   min-height: 298px;
   justify-content: space-between;
   gap: 30px;
-  scrollbar-width: none;
+  margin-bottom: 30px;
 }
 
 .content__list-item {
@@ -140,13 +142,15 @@ ol {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  text-decoration-skip-ink: none;
+  /* text-decoration-skip-ink: none; */
+  max-width: 192px;
+  text-overflow: ellipsis;
 }
 
 .content__video-card-description {
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
-  font-style: 18px;
+  font-size: 18px;
   line-height: 16.2px;
   font-weight: 400;
   text-decoration-skip-ink: none;
@@ -256,6 +260,7 @@ ol {
 .button {
   color: #fff;
   font-size: 18px;
+  font-weight: 700;
   background-color: transparent;
   border: 1px solid #fff;
   font-family: "Fira Sans Condensed", sans-serif;
