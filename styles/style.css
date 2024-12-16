@@ -103,7 +103,6 @@ ol {
 .content__details {
   display: flex;
   flex-direction: column;
-  row-gap: 26px;
   width: 100%;
   height: 100%;
 }
