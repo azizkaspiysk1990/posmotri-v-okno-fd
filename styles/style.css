@@ -1,6 +1,6 @@
 *,
 *::before,
-*::after {
+::after {
   box-sizing: border-box;
 }
 
@@ -39,7 +39,8 @@ ol {
   list-style: none;
 }
 
-/* Кастомный скроллбар */
+/*Кастомный скроллбар */
+
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
 }
@@ -95,7 +96,7 @@ ol {
 
 .content__list-item {
   row-gap: 30px;
-  padding: 3px;
+  padding: 0 3px 0 2px;
 }
 
 .content__details {
@@ -142,9 +143,6 @@ ol {
   max-width: 192px;
   text-decoration-skip-ink: none;
 }
-
-                                                      /* Nikita Zhmaev, у Вас в макете указан город Орёл, но у меня такого нет, видимо у нас разные версии макет*/
-
 
 .content__video-card-description {
   color: #fff;
@@ -251,6 +249,7 @@ ol {
   align-items: center;
   justify-content: center;
 }
+
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
   content: "";
   display: block;
@@ -272,7 +271,7 @@ ol {
   line-height: 70.5px;
   text-transform: uppercase;
   color: #fff;
-  margin-bottom: 26px;
+  margin-bottom: 22px;
 }
 .content__accent {
   color: #545050;
@@ -323,7 +322,6 @@ ol {
   display: block;
   color: #fff;
   text-decoration: none;
-  margin: 2px;
 }
 
 .content__card-link_current {
