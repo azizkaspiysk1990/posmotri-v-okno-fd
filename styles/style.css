@@ -80,7 +80,6 @@ ol {
 
 .content__list-container {
   position: relative;
-  margin-top: 26px;
   height: 298px;
   overflow-y: auto;
 }
@@ -90,7 +89,6 @@ ol {
   display: flex;
   flex-direction: column;
   min-height: 298px;
-  justify-content: space-between;
   gap: 30px;
   margin-bottom: 30px;
 }
@@ -142,7 +140,11 @@ ol {
   overflow: hidden;
   white-space: nowrap;
   max-width: 192px;
+  text-decoration-skip-ink: none;
 }
+
+                                                      /* Nikita Zhmaev, у Вас в макете указан город Орёл, но у меня такого нет, видимо у нас разные версии макет*/
+
 
 .content__video-card-description {
   color: #fff;
@@ -227,6 +229,16 @@ ol {
   outline: none;
 }
 
+.search-form__textfield:focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: -1px;
+}
+
+.search-form__textfield:active {
+  outline: 1px solid #fff;
+  outline-offset: -1px;
+}
+
 .search-form__textfield:hover {
   cursor: text;
 }
@@ -260,8 +272,8 @@ ol {
   line-height: 70.5px;
   text-transform: uppercase;
   color: #fff;
+  margin-bottom: 26px;
 }
-
 .content__accent {
   color: #545050;
 }
